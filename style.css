@@ -97,6 +97,7 @@ header{
     z-index: 150;
 }
 
+
 .show .sidebar{
     right: 0rem;
 }
@@ -120,7 +121,7 @@ header{
 }
 
 .menu-link:hover{
-    color: #191970;
+    color: #979696;
 }
 
 .social-media{
@@ -132,7 +133,7 @@ header{
     font-size: 2rem;
 }
 .social-media i{
-    color: #191970;
+    color: #ffffff;
 }
 
 .social-media i:hover{
@@ -216,8 +217,8 @@ header{
     
 }
 .card-img-galeria img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 5px;
 }
 

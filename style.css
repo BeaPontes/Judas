@@ -197,8 +197,8 @@ header{
 }
 .sessao-clientes{
    background-color: rgb(0, 0, 0);
-   max-height: 500px
-
+   height: 60%;
+   position: relative;
 }
 
 .card{
@@ -220,13 +220,14 @@ header{
 .galery-img-container{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .card-galery{
-    width: 25rem;
+    width: 20rem;
     height: 25rem;
     position: relative;
     display: flex;
-
+    padding: 5px;
 }
 
 .card-img-wrapper-galery{
@@ -329,7 +330,10 @@ header{
 .contato-container{
     background-color: black;
     text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
 }
 
 .campos{
@@ -338,8 +342,10 @@ header{
     margin: 2px;
 }
 .form{
-    width: 500px;
+    width: 460px;
     height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
